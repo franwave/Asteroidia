@@ -36,6 +36,6 @@ Asteroidia is a Python-based desktop application that allows users to view NASA'
   Create a .env file in the root directory of the project.
   Add your NASA API key (https://api.nasa.gov/) to the .env file:
   ```bash
-  NASA_API_KEY=your_api_key_here
+NASA_API_KEY=your_api_key_here
 
 
