@@ -23,16 +23,19 @@ Asteroidia is a Python-based desktop application that allows users to view NASA'
    git clone https://github.com/framwave/Asteroidia.git
    cd Asteroidia
 2. **Create and activate a virtual environment**:
-
-  python -m venv venv
-  source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  
+   # On Windows use `venv\Scripts\activate`
 
 3. **Install the dependencies**:
-  pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4. **Set up your .env file**:
   Create a .env file in the root directory of the project.
   Add your NASA API key to the .env file:
+  ```bash
   NASA_API_KEY=your_api_key_here
 
 
